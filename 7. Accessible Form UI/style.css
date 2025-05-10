@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f2f2f2;
+  font-family: Poppins;
+}
+.container {
+  margin: auto;
+  width: 40%;
+  border: 2px solid #000;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0.6rem;
+  border-radius: 14px;
+}
+form {
+  display: block;
+}
+label {
+  margin-top: rem;
+}
+input[type="text"] {
+  margin: 8px 0;
+  width: 100%;
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+input[type="password"] {
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  width: 100%;
+  padding: 8px 12px;
+  border-radius: 8px;
+}
+input[type="submit"] {
+  margin-top: 0.8rem;
+  padding: 8px;
+  border-radius: 7px;
+  background-color: #000;
+  color: #fff;
+  border: 0px solid #000;
+  cursor: pointer;
+}
+.circular {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: conic-gradient(
+    #4caf50 calc(var(--progress) * 1%),
+    #ccc calc(var(--progress) * 1%)
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  --progress: 65; /* Variabel custom untuk persentase */
+}
+.kanan {
+  display: block;
+}
+.kanan p {
+  margin-top: 0.8rem;
+}
+.griy {
+  background-color: gray;
+  border-radius: 14px;
+  padding: 1rem;
+}
+.griy span {
+  text-decoration: line-through;
+}
+.griy p {
+  font-size: 0.9rem;
+}
